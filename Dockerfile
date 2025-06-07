@@ -8,6 +8,6 @@ RUN npm ci
 # Copy app source
 COPY . .
 # Expose the port your backend runs on
-EXPOSE 5000
+EXPOSE 4000
 # Start the app
 CMD ["npm", "start"]
